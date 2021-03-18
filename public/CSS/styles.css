@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+
+footer {
+  padding: 0 !important;
+  height: 5%;
+  width: 100%;
+}
+
+.nav-element {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 1.2rem;
+  text-decoration-color: #29617f !important;
+}
+
+.w-hr {
+  width: 50%;
+  padding: 1px;
+  border: 0;
+  background-color: #ede2a4;
+}
+
+.b-hr {
+  width: 70%;
+  padding: 1px;
+  border: 0;
+  background-color: #ede2a4;
+}
+
+.bclass {
+  background-color: #a0cae0;
+  margin: 0 1rem 4rem 0;
+  padding: 2rem;
+}
+
+.nav-elements {
+  margin: 2rem;
+  margin-top: 0;
+  color: #000000 !important;
+}
+
+.wclass {
+  background-color: #ffff;
+  margin: 0 3rem 3rem;
+
+}
+
+.logo-top {
+  text-align: center;
+}
+
+small {
+  padding: 0;
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.arabic {
+  text-align: right;
+  letter-spacing: 0 !important;
+}
+
+p {
+  font-family: 'Tajawal', sans-serif;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.middle-text {
+  font-family: 'Tajawal', sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+.white-text {
+  font-family: 'Tajawal', sans-serif;
+  color: #fffafa;
+  text-shadow: 1px 1px 8px #00022e;
+  padding: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.white-textp {
+  font-family: 'Tajawal', sans-serif;
+  color: #00022e;
+  text-shadow: 1px 1px 10px #fffafa;
+}
+
+.profile-img {
+  margin-top: 1.5rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.sample-image {
+  height: 17.5rem;
+  width: 17.5rem;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-content {
+  color: #29617f;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.table-contact {
+  display: flex;
+  justify-content: center;
+  margin-right: 8rem;
+}
+
+
+.table-elements {
+  padding: 3rem;
+}
+
+.carousel-img {
+  margin: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #fffafa;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 3rem;
+    content: "\f106";
+    color: #00022e;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+.faq-question {
+  font-size: 1.5rem ;
+}
+
+.blog-post {
+  font-family: 'Tajawal', sans-serif;
+  margin: 1.5rem;
+}
+
+.contact-image {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
