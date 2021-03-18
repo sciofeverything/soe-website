@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog Post - S.O.E</title>
+    <link rel="stylesheet"  type="text/css" href="/public/CSS/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-expand-lg ">
+      <div class="container-fluid" >
+        <div class="navbar-header logo-top">
+          <a class="navbar-brand" href="/"><img class="sample-image" src="/public/images/logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav navbar-nav ">
+          <li class="active"><a class="nav-elements nav-element" href="/">Home  |  الرئيسية</a></li>
+          <li ><a class="nav-elements nav-element" href="/blog">Blog  |  المنشورات</a></li>
+          <li ><a class="nav-elements nav-element" href="/faq">FAQ  |  الأسئلة الشائعة</a></li>
+          <li ><a class="nav-elements nav-element" href="/contact">Contact Us  |  تواصل معنا</a></li>
+        </ul>
+      </div>
+    </nav>
+    <a class="btn btn-outline-light btn-lg" style="font-size: 1.2rem; font-family: 'Tajawal', sans-serif; background-color: #a0cae0; border: 2px solid; position: absolute; right:0; margin: 0 3rem 3rem 3rem;" href="/blog/<%= articles.hrefTitle %>/arabic">إقرأ بالعربية</a>
+
+    <div class="wclass">
+      <h1 class="blog-post display-4" style="margin:0; width: 80%;"><%= articles.title %></h1>
+      <small class="blog-post" style="color: grey;"><%= articles.date %></small>
+      <img  src="<%= articles.image %>" alt="image" style="margin-top:1rem;margin-bottom:1rem;max-width: 80%;display: block;margin-left: auto;  margin-right: auto; ">
+      <p class="blog-post"><%= articles.text %></p>
+      <p class="blog-post"><%= articles.text2 %></p>
+      <p class="blog-post"><%= articles.text3 %></p>
+      <p class="blog-post"><%= articles.text4 %></p>
+      <p class="blog-post"><%= articles.text5 %></p>
+      <p class="blog-post"><%= articles.text6 %></p>
+      <p class="blog-post"><%= articles.text7 %></p>
+      <p class="blog-post"><%= articles.text8 %></p>
+      <p class="blog-post"><%= articles.text9 %></p>
+      <p class="blog-post"><%= articles.text10 %></p>
+      <a class="blog-post" style="font-size: 1.2rem; color: #29617f; text-decoration-color: black;" href="<%= articles.vid %>"><%= articles.videoText %></a>
+      <img src="<%= articles.image2 %>" alt="" style="margin-top:1rem;margin-bottom:1rem;max-width: 80%;display: block;margin-left: auto;  margin-right: auto; ">
+    </div>
+
+    <div class="row">
+      <div class="container bclass" style="width: 30%; margin-left: 4rem; margin-right: auto; padding:1rem;">
+        <p style="margin:0; padding: 0; font-size: 0.8rem;">author: <%= articles.author %></p>
+        <p style="margin:0; padding: 0; font-size: 0.8rem;">editor: <%= articles.editor %></p>
+        <p style="margin:0; padding: 0; font-size: 0.8rem;">translator: <%= articles.translator %></p>
+        <p style="margin:0; padding: 0; font-size: 0.8rem;">other contributer: <%= articles.otherContributer %></p>
+      </div>
+    </div>
+
+    <footer class="bclass">
+      <div class="container middle-text">
+        <div class="row">
+          <div class="col">
+            <img class="footer-content" src="/public/images/instagram.svg" alt="instagram">
+            <a class="footer-content" href="https://www.instagram.com/sciofeverything/">Follow Us On Instagram</a>
+            <br>
+            <a class="footer-content arabic" href="https://www.instagram.com/sciofeverything/"> ضيفونا على الانستجرام</a></a>
+          </div>
+          <div class="col">
+            <img class="footer-content" src="/public/images/gmail.svg" alt="gmail">
+            <a class="footer-content" href="mailto:sciofeverything@gmail.com">Send Us An Email</a>
+            <br>
+            <a class="footer-content arabic" href="mailto:sciofeverything@gmail.com">راسلونا عبر البريد الالكتروني</a>
+          </div>
+          <div class="col">
+            <img class="footer-content" src="/public/images/youtube.svg" alt="youtube">
+            <a class="footer-content" href="https://www.youtube.com/channel/UChEYjDQjwN1fJ1Yx729k3CQ">Subscribe To Our Youtube</a>
+            <br>
+            <a class="footer-content arabic" href="https://www.youtube.com/channel/UChEYjDQjwN1fJ1Yx729k3CQ">اشتركوا في قناة اليوتيوب</a>
+          </div>
+        </div>
+          <hr class="w-hr" style="width: 20%;">
+        <div class="row">
+          <p class="middle-text " style="padding:0; font-size: 0.9rem;color: #29617f; margin: 0 auto;">Established 2020</p>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
